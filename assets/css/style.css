@@ -1,0 +1,54 @@
+/*========================================
+				Global Css 
+========================================*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 16px;
+	font-weight: 400;
+}
+ul,p{
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+
+/*========================================
+				Header Style 
+========================================*/
+.sh_otp_input .sh_account_id {
+  display: flex;
+  column-gap: 5px;
+}
+.sh_otp_input .sh_account_id input{
+  width: 100%;
+  text-align: center;
+}
+.sh_otp_input .form-group input {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    border: 1px solid transparent;
+    background: #FEF3DF;
+    color: #000;
+    border-radius: 10px;
+    padding: 10px 12px;
+}
+.sh_otp_input input:focus{
+    box-shadow: none;
+    outline: none;
+    border-color: #8bbafe;
+    background-color: #FEF3DF;
+}

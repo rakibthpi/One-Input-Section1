@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+	<title>OTP input</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- favicion -->
+	<link rel="shortcut icon" href="assets/images" type="image/x-icon">
+
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/fontawesom.min.css">
+	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+
+	  <!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet"> 
+
+	<link rel="stylesheet" href="assets/css/normalize.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+
+	<!--===========================================
+	 			-- Start Header Area --
+	 ============================================-->
+	 <header class="section_area">
+	 	<div class="container">
+	 		<div class="row">
+	 			<div class="col-md-12">
+	 				<form action="#">
+	                    <!-- Otp input -->
+	                    <div class="sh_otp_input">
+							<div class="form-group mb-4 ">
+								<label for="sl_no" class="form-label">Enter Account or Otp Number</label>
+								<div class="sh_account_id digit-group" data-group-name="digits" data-autosubmit="false" autocomplete="off">
+
+									<input type="text"id="digit-1" name="digit-1" data-next="digit-2">
+									<input type="text" id="digit-2" name="digit-2" data-next="digit-3" data-previous="digit-1">
+									<input type="text" id="digit-3" name="digit-3" data-next="digit-4" data-previous="digit-2">
+									<input type="text" id="digit-4" name="digit-4" data-next="digit-5" data-previous="digit-3">
+									<input type="text"  id="digit-5" name="digit-5" data-next="digit-6" data-previous="digit-4">
+									<input type="text" id="digit-6" name="digit-6" data-next="digit-7" data-previous="digit-5">
+									<input type="text" id="digit-7" name="digit-7" data-next="digit-8" data-previous="digit-6">
+									<input type="text" id="digit-8" name="digit-8" data-next="digit-9" data-previous="digit-7">
+									<input type="text" id="digit-9" name="digit-9" data-next="digit-10" data-previous="digit-8">
+									<input type="text" id="digit-10" name="digit-10" data-next="digit-11" data-previous="digit-9">
+								</div>
+							</div>
+						</div>
+	                    <!-- Otp input -->
+                	</form>
+	 			</div>
+	 		</div>
+	 	</div>
+	 </header>
+	<!--===========================================
+	 			-- End Header Area --
+	 ===========================================-->
+
+
+
+ 	<!-- script file -->
+ 	<script src="assets/js/jquery.min.js"></script>
+ 	<script src="assets/js/popper.min.js"></script>
+ 	<script src="assets/js/bootstrap.min.js"></script>
+ 	<script src="assets/js/fontawesome.min.js"></script>
+ 	<script src="assets/js/owl.carousel.min.js"></script>
+ 	<script src="assets/js/scripts.js"></script>
+</body>
+
+</html>
